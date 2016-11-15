@@ -9,7 +9,8 @@ RUN gem install capistrano \
         capistrano-passenger \
         capistrano-laravel \
         capistrano-composer \
-        capistrano-npm
+        capistrano-npm \
+        capistrano3-unicorn
 
 COPY entrypoint.rb /scripts/entrypoint.rb
 

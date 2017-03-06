@@ -11,6 +11,7 @@ RUN gem install capistrano \
         capistrano-composer \
         capistrano-npm \
         capistrano3-unicorn \
+        capistrano3-puma \
         whenever
 
 COPY entrypoint.rb /scripts/entrypoint.rb
